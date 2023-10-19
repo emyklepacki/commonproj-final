@@ -86,7 +86,10 @@ h3
 
 p
 {
-    line-height: 3.5;
+    line-height: 2.5;
+    font-family: Courier, monospace;
+    text-align: center;
+    font-size: 13px;
 }
 
 img 
@@ -129,6 +132,47 @@ a{
     overflow: auto; 
   } */
 
+.text-block img {
+    width: 20%;
+}
+
+#main-photo {
+    width: 400px;
+    float: left;
+}
+
+.text-block ul:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin: 10px;
+    background: #6F4E37;
+}
+
+.scroll-menu {
+    background-color: #c2b4aa;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scroll-menu li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.scroll-menu img {
+    width: 200px ;
+}
+
+.scroll-menu img:hover {
+    background-color: white;
+}
+
 
 @media only screen and (max-width: 600px) {
     [class*="col-"]{
@@ -145,5 +189,7 @@ a{
     .desktop-only {
         display: none; /* hidden on mobile */
     }
+
+    
 }
 
