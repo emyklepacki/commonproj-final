@@ -14,6 +14,7 @@ nav:hover, nav:focus {
 }
 
 body {
+    width: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -174,22 +175,14 @@ a{
 }
 
 
-@media only screen and (max-width: 600px) {
-    [class*="col-"]{
-        width: 100%;
-    }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 767px) {
     body {
-        font-size: 12px;
+        width: 120%;
+        margin: 0;
+        padding: 0;
     }
 
-    .desktop-only {
-        display: none; /* hidden on mobile */
-    }
-
-    
-}
+} 
 
