@@ -184,5 +184,8 @@ a{
         padding: 0;
     }
 
+    p {
+        font-size: 90%;
+    }
 } 
 
