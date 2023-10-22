@@ -186,6 +186,12 @@ a{
   }
 
 
+  .text-block {
+    display: grid;
+    gap: 15px;
+  }
+
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -204,7 +210,7 @@ a{
         background: url('../imgs/prague-high.jpeg') no-repeat center;
         margin-right: 0;
         margin-left: 0;
-        background-size: cover;
+        margin-bottom: 0;
     }
 
     nav li{
@@ -216,7 +222,7 @@ a{
     }
 
     h1{
-        padding-top: 60px;
+        padding-top: 70px;
     }
 
     #main-photo{
@@ -235,6 +241,13 @@ a{
         text-decoration: underline;
     }
     
+    h2{
+    animation-name: animate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+
     @keyframes animate {
         0%   {text-decoration: underline dotted; }
         25%  {text-decoration: none;}
