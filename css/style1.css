@@ -190,6 +190,7 @@ a{
 
     .overview{
         margin-top: 50px;
+        background: url('../imgs/prague-high.jpeg') no-repeat center;
     }
 
     nav li{
