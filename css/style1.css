@@ -222,7 +222,7 @@ a{
     }
 
     h1{
-        padding-top: 70px;
+        margin-top: 70px;
     }
 
     #main-photo{
@@ -240,7 +240,7 @@ a{
     #current{
         text-decoration: underline;
     }
-    
+
     h2{
     animation-name: animate;
     animation-duration: 8s;
