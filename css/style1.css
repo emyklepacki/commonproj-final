@@ -185,7 +185,11 @@ a{
     }
 
     p {
-        font-size: 90%;
+        font-size: 80%;
+    }
+
+    .overview{
+        margin-top: 30px;
     }
 } 
 
