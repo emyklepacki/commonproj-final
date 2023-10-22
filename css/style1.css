@@ -202,7 +202,6 @@ a{
         background: url('../imgs/prague-high.jpeg') no-repeat center;
         margin-right: 0;
         margin-left: 0;
-        margin-top: 40px;
     }
 
     nav li{
@@ -213,6 +212,10 @@ a{
         text-align: center;
     }
 
+    h1{
+        padding-top: 30px;
+    }
+    
     #main-photo{
         display: block;
         margin-left: auto;
