@@ -14,6 +14,7 @@ nav:hover, nav:focus {
 }
 
 body {
+    width: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -87,6 +88,7 @@ h3
     color: #000000;
     font-family: Courier, monospace;
     text-decoration: underline dotted;
+    text-align: center;
 }
 
 p
@@ -183,12 +185,6 @@ a{
     margin-left: 20px;
 }
 
-
-@media only screen and (max-width: 600px) {
-    [class*="col-"]{
-        width: 100%;
-    }
-}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 767px) {
