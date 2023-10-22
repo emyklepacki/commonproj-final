@@ -200,6 +200,10 @@ a{
         font-size: 70%;
     }
 
+    h2{
+        font-size: 12px;
+    }
+
 
     .overview{
         background: url('../imgs/RECIPESSS.jpeg') no-repeat center;
@@ -247,14 +251,6 @@ a{
     #current{
         text-decoration: underline;
     }
-
-    h2{
-    animation-name: animate;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    }
-
 
 } 
 
