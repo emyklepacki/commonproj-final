@@ -214,7 +214,6 @@ a{
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 0;
-        width: 100%;
     }
 
     nav li{
@@ -231,7 +230,7 @@ a{
 
 
     .text-block {
-        grid-template-columns: 100px 100px; 
+        grid-template-columns: 1fr 1fr; 
         grid-row-gap: 20px;
       }
     
