@@ -231,7 +231,9 @@ a{
 
 
     .text-block {
-        grid-template-columns: 1fr 1fr; 
+        display: grid;
+        grid-template-columns: 1fr; 
+        padding: 1em;
         grid-row-gap: 20px;
       }
     
