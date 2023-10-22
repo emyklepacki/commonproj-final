@@ -191,5 +191,11 @@ a{
     .overview{
         margin-top: 30px;
     }
+
+    nav li{
+        float:none;
+        display:block;
+        text-align: center;
+    }
 } 
 
