@@ -214,6 +214,7 @@ a{
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 0;
+        background-size: cover;
     }
 
     nav li{
