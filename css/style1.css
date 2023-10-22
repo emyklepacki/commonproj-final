@@ -193,13 +193,13 @@ a{
 /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (max-width: 767px) {
     body {
-        width: 150%;
+        width: 130%;
         margin: 0;
         padding: 0;
     }
 
     p {
-        font-size: 70%;
+        font-size: 80%;
     }
 
     .overview{
@@ -225,7 +225,7 @@ a{
     .text-block {
         /* display: grid; */
         /* width: fit-content; */
-        grid-template-columns: 60% auto;
+        grid-template-columns: 50% auto;
         /* grid-template-rows: auto; */
         grid-row-gap: 20px;
         /* border: 10px #6F4E37; */
