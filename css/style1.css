@@ -189,8 +189,7 @@ a{
     }
 
     .overview{
-        margin-top: 70px;
-        background: url('../imgs/prague-high.jpeg') no-repeat center;
+        background-image: url('../imgs/prague-high.jpeg') no-repeat center;
     }
 
     nav li{
@@ -208,8 +207,9 @@ a{
         width: 50%;
     }
 
-    .skip #skip-mobile{
+    .skip #skip-mobile a{
         display: none;
+        visibility: hidden;
     }
 
 } 
