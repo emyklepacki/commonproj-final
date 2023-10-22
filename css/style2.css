@@ -14,7 +14,7 @@ nav:hover, nav:focus {
 }
 
 body {
-    width: 100%;
+    width: 80%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -49,6 +49,20 @@ body {
     padding-right:20px;
     font-family: Courier, monospace;
 
+  }
+
+  #animate{
+    animation-name: animate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes animate {
+    0%   {text-decoration: underline dotted; }
+    25%  {text-decoration: none;}
+    50%  {text-decoration: underline dotted;}
+    100% {text-decoration: none;}
   }
 
 .overview{
@@ -194,7 +208,7 @@ a{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 767px) {
     body {
-        width: 110%;
+        width: 100%;
         margin: 5px;
         padding: 0;
         font-size: 70%;

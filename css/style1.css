@@ -19,7 +19,7 @@ hr{
 }
 
 body {
-    width: 100%;
+    width: 80%;
     position: relative;
     display: flex;
     flex-direction: column;
