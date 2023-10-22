@@ -76,6 +76,11 @@ h2
     font-family: Verdana;
 }
 
+.skip #skip-mobile {
+    display: none;
+    visibility: hidden;
+}
+
 h3
 {
     font-size:20px;

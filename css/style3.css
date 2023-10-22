@@ -150,6 +150,11 @@ a{
     background: #6F4E37;
 }
 
+.skip #skip-mobile {
+    display: none;
+    visibility: hidden;
+}
+
 .scroll-menu {
     background-color: #c2b4aa;
     overflow: auto;

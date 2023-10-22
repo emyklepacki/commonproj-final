@@ -185,13 +185,13 @@ a{
   }
 
 
-  .text-block {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+  /* .text-block { */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 3fr; */
     /* grid-template-rows: 600px; */
-    grid-row-gap: 30px;
+    /* grid-row-gap: 30px; */
     /* border: 10px #6F4E37; */
-  }
+  /* } */
 
 
 
@@ -234,7 +234,8 @@ a{
         /* grid-template-rows: 600px; */
         grid-row-gap: 20px;
         /* border: 10px #6F4E37; */
-        margin:0;
+        margin:0 auto;
+        padding: 0;
       }
     
     #main-photo{
