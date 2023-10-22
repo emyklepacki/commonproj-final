@@ -183,7 +183,7 @@ a{
 
    .text-block { 
      display: grid; 
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: auto; 
     grid-row-gap: 40px;
    } 
@@ -193,7 +193,7 @@ a{
 /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (max-width: 767px) {
     body {
-        width: 130%;
+        width: 120%;
         margin: 0;
         padding: 0;
     }
@@ -207,6 +207,7 @@ a{
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 0;
+        width: 100%;
     }
 
     nav li{
@@ -225,7 +226,7 @@ a{
     .text-block {
         /* display: grid; */
         /* width: fit-content; */
-        grid-template-columns: 50% auto;
+        /* grid-template-columns: 50% auto; */
         /* grid-template-rows: auto; */
         grid-row-gap: 20px;
         /* border: 10px #6F4E37; */
