@@ -180,9 +180,10 @@ a{
     background-color: white;
 }
 
-.likes{
+.likes li{
     text-align: left;
     margin-left: 20px;
+    font-size: 13px;
 }
 
 
@@ -217,6 +218,11 @@ a{
         padding-top: 80px;
     }
 
+    .likes{
+        text-align: center;
+        line-height: 2.5;
+        font-family: Courier, monospace;
+    }
 
     .text-block {
         /* display: grid; */
