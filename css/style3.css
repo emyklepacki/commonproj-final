@@ -206,3 +206,18 @@ a{
     
 }
 
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+  
+    h2{
+      -webkit-transition: none; /* sets to default setting */
+      transition: none;        /* sets to default setting */
+     }
+  
+    .gif {
+        display: none;
+        visibility: hidden;
+    }
+  }
