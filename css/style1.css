@@ -13,6 +13,11 @@ nav:hover, nav:focus {
     text-transform:uppercase
 }
 
+hr{
+    border-color: black;
+    border-radius: 2px;
+}
+
 body {
     width: 100%;
     position: relative;
@@ -221,12 +226,12 @@ a{
     }
 
     h1{
-        padding-top: 80px;
+        padding-top: 70px;
     }
 
 
     .text-block {
-        grid-template-columns: auto auto; 
+        grid-template-columns: 150 150; 
         grid-row-gap: 20px;
       }
     
