@@ -195,13 +195,11 @@ a{
 @media only screen and (max-width: 767px) {
     body {
         width: 110%;
-        margin: 0;
+        margin: 5px;
         padding: 0;
-    }
-
-    p {
         font-size: 70%;
     }
+
 
     .overview{
         background: url('../imgs/PETSSS.jpeg') no-repeat center;
