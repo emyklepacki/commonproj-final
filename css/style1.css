@@ -189,6 +189,7 @@ a{
     }
 
     .overview{
+        margin-top:60px;
         background: url('../imgs/prague-high.jpeg') no-repeat center;
     }
 
@@ -212,5 +213,8 @@ a{
         visibility: hidden;
     }
 
+    #current{
+        text-decoration: underline;
+    }
 } 
 
