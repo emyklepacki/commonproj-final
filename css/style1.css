@@ -230,10 +230,11 @@ a{
 
     .text-block {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr 2fr;
         /* grid-template-rows: 600px; */
         grid-row-gap: 20px;
         /* border: 10px #6F4E37; */
+        margin:0;
       }
     
     #main-photo{
