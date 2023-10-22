@@ -183,7 +183,7 @@ a{
 
    .text-block { 
      display: grid; 
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: auto; 
     grid-row-gap: 40px;
    } 
@@ -225,15 +225,8 @@ a{
 
 
     .text-block {
-        /* display: grid; */
-        /* width: fit-content; */
-        width: 100%;
-        grid-template-columns: auto auto; 
-        /* grid-template-rows: auto; */
+        grid-template-columns: 1fr 1fr; 
         grid-row-gap: 20px;
-        /* border: 10px #6F4E37; */
-        margin: 0 auto;
-        padding: 0;
       }
     
     #main-photo{

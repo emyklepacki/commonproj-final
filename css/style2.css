@@ -186,11 +186,15 @@ a{
     font-size: 13px;
 }
 
+.text-block > *{
+    padding: 1rem;
+}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 767px) {
     body {
-        width: 120%;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
@@ -218,21 +222,15 @@ a{
         padding-top: 80px;
     }
 
-    .likes{
+    h2{
+        text-align: center;
+    }
+
+    .likes li{
         text-align: center;
         line-height: 2.5;
         font-family: Courier, monospace;
     }
-
-    .text-block {
-        /* display: grid; */
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-row-gap: 20px;
-        /* border: 10px #6F4E37; */
-        margin: 0 auto;
-        padding: 0;
-      }
     
     #main-photo{
         display: block;
