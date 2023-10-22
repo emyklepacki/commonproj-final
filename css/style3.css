@@ -203,7 +203,7 @@ a{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 767px) {
     body {
-        width: 120%;
+        width: 80%;
         margin: 0;
         padding: 0;
     }
