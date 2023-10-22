@@ -208,5 +208,9 @@ a{
         width: 50%;
     }
 
+    #skip-mobile{
+        display: none;
+    }
+
 } 
 
