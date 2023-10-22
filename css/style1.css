@@ -87,6 +87,7 @@ h3
     color: #000000;
     font-family: Courier, monospace;
     text-decoration: underline dotted;
+    text-align: center ;
 }
 
 p
@@ -144,15 +145,13 @@ a{
 #main-photo {
     width: 400px;
     float: left;
+    /* padding-top: 15%; */
 }
 
-.text-block ul:after {
-    content: "";
-    display: block;
-    height: 2px;
-    width: 100%;
-    margin: 10px;
-    background: #6F4E37;
+.divide {
+    border-top: 2px solid #6F4E37;
+    grid-column: 1 / 5;
+    /* background: #6F4E37; */
 }
 
 .scroll-menu {
@@ -188,9 +187,10 @@ a{
 
   .text-block {
     display: grid;
-    gap: 15px;
+    grid-template-columns: 1fr 3fr;
+    /* grid-template-rows: 600px; */
+    grid-row-gap: 30px;
   }
-
 
 
 
