@@ -186,6 +186,8 @@ a{
   }
 
 
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (max-width: 767px) {
     body {
@@ -232,6 +234,13 @@ a{
     #current{
         text-decoration: underline;
     }
+    
+    @keyframes animate {
+        0%   {text-decoration: underline dotted; }
+        25%  {text-decoration: none;}
+        50%  {text-decoration: underline dotted;}
+        100% {text-decoration: none;}
+      }
 } 
 
 @media screen and (prefers-reduced-motion: reduce){
