@@ -188,19 +188,20 @@ a{
     grid-row-gap: 40px;
    } 
 
+   .text-block > *{
+    padding: 1rem;
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (max-width: 767px) {
     body {
-        width: 120%;
+        width: 100%;
         margin: 0;
         padding: 0;
-    }
-
-    p {
         font-size: 80%;
     }
+
 
     .overview{
         background: url('../imgs/prague-high.jpeg') no-repeat center;
@@ -225,7 +226,7 @@ a{
 
 
     .text-block {
-        grid-template-columns: 1fr 1fr; 
+        grid-template-columns: auto auto; 
         grid-row-gap: 20px;
       }
     
