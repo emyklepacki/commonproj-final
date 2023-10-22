@@ -199,8 +199,9 @@ a{
     }
 
     .overview{
-        background-image: url('../imgs/prague-high.jpeg') no-repeat center;
-        margin: auto;
+        background: url('../imgs/prague-high.jpeg') no-repeat center;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     nav li{
@@ -227,4 +228,20 @@ a{
         text-decoration: underline;
     }
 } 
+
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+  
+    h2{
+      -webkit-transition: none; /* sets to default setting */
+      transition: none;        /* sets to default setting */
+     }
+  
+    .gif {
+        display: none;
+        visibility: hidden;
+    }
+  }
 
