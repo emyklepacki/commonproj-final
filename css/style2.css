@@ -51,7 +51,7 @@ body {
 
   }
 
-  #anim{
+  #animate{
     animation-name: animate;
     animation-duration: 8s;
     animation-iteration-count: infinite;

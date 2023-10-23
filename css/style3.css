@@ -210,6 +210,9 @@ a{
         text-align: center;
     }
 
+    .scroll-menu {
+        width: 100%;
+    }
 
     .overview{
         background: url('../imgs/RECIPESSS.jpeg') no-repeat center;
