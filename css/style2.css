@@ -214,6 +214,10 @@ a{
 }
 
 
+.skip li {
+    color: black;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 767px) {
     body {

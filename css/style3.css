@@ -41,7 +41,7 @@ body {
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     z-index: 1;
-    color: #86837f;
+    color: black;
   }
 
   nav li{
@@ -188,7 +188,9 @@ a{
     width: 500px;
 }
 
-
+.skip li {
+    color: black;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) 
 
