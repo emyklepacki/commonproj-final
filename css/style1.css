@@ -182,6 +182,9 @@ a{
 .skip li {
     color: black;
 }
+.skip li > a {
+    color: black;
+}
 
 @-webkit-keyframes animate {
     0%   {text-decoration: underline dotted; }
