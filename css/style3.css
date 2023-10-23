@@ -152,10 +152,10 @@ a{
     background: #6F4E37;
 }
 
-.skip #skip-mobile {
+/* .skip #skip-mobile {
     display: none;
     visibility: hidden;
-}
+} */
 
 
 .block ul {
@@ -166,14 +166,14 @@ a{
 
 .block ul > li {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px;
     text-decoration: none;
     font-size: 13px;
 }
 
-.block ol > li {
+.block ol > li{
     display: inline-block;
     color: white;
     text-align: center;
