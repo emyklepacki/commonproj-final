@@ -162,22 +162,22 @@ a{
     float: left;
 }
 
-.text-block ul:after {
+/* .text-block ul:after {
     content: "";
     display: block;
     height: 2px;
     width: 100%;
     margin: 10px;
     background: #6F4E37;
-}
+} */
 
-.scroll-menu {
+.block ul{
     background-color: #c2b4aa;
     overflow: auto;
     white-space: nowrap;
 }
 
-.scroll-menu li {
+.block ul > li {
     display: inline-block;
     color: white;
     text-align: center;
@@ -186,11 +186,11 @@ a{
     font-size: 13px;
 }
 
-.scroll-menu img {
+.block li > img {
     width: 200px ;
 }
 
-.scroll-menu img:hover {
+.block li > img:hover {
     background-color: white;
 }
 

@@ -244,7 +244,7 @@ a{
         width: auto;
       }
     
-    #main-photo{
+    .main-photo{
         float:none;
         display: block;
         margin-left: auto;
