@@ -51,7 +51,7 @@ body {
 
   }
 
-  #animate{
+  #anim{
     animation-name: animate;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -214,9 +214,10 @@ a{
         font-size: 70%;
     }
 
-    p{
-        float:right;
-    }
+    /* p{
+        float: right;
+    } */
+
     .overview{
         background: url('../imgs/PETSSS.jpeg') no-repeat center;
         margin-right: 0;
