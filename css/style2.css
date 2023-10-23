@@ -157,10 +157,6 @@ a{
     width: 20%;
 }
 
-.main-photo {
-    width: 300px;
-    float: left;
-}
 
 /* .text-block ul:after {
     content: "";
@@ -202,6 +198,11 @@ a{
 
 .text-block > *{
     padding: 1rem;
+}
+
+.main-photo {
+    width: 300px;
+    float: left;
 }
 
 

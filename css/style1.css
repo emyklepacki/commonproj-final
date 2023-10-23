@@ -147,12 +147,6 @@ a{
     width: 20%;
 }
 
-.main-photo {
-    width: 400px;
-    float: left;
-    /* padding-top: 15%; */
-}
-
 
 
 .block ul {
@@ -176,6 +170,13 @@ a{
 
 .block li img:hover {
     background-color: white;
+}
+
+
+.main-photo {
+    width: 400px;
+    float: left;
+    /* padding-top: 15%; */
 }
 
 @-webkit-keyframes animate {
