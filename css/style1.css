@@ -206,7 +206,10 @@ a{
         margin: 0px;
         padding: 0;
         font-size: 60%;
-        margin-left: 10px;
+    }
+
+    p{
+        float:right;
     }
 
 
