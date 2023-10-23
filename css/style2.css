@@ -262,7 +262,7 @@ a{
         font-family: Courier, monospace;
     }
     
-    #main-photo{
+    .main-photo{
         display: block;
         margin-left: auto;
         margin-right: auto;

@@ -253,7 +253,7 @@ a{
         grid-row-gap: 20px;
       }
     
-    #main-photo{
+    .main-photo{
         float:none;
         display: block;
         margin-left: auto;
