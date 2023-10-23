@@ -202,7 +202,7 @@ a{
 /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (max-width: 767px) {
     body {
-        width: 100%;
+        width: 90%;
         margin: 0px;
         padding: 0;
         font-size: 60%;
@@ -248,7 +248,7 @@ a{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 60%;
     }
 
     .skip #skip-mobile {
