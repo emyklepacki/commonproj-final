@@ -1,4 +1,4 @@
-/* TRAVEL */
+/* PETS */
 html{
     scroll-behavior: smooth;
 }
@@ -101,7 +101,7 @@ h3
     color: #000000;
     font-family: Courier, monospace;
     text-decoration: underline dotted;
-    text-decoration: bold;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -213,7 +213,6 @@ a{
         padding: 0;
         font-size: 70%;
         float: right;
-        padding-right: 16px;
     }
 
 
