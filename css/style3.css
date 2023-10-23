@@ -157,16 +157,15 @@ a{
     visibility: hidden;
 }
 
-.scroll-menu {
+
+.block ul {
     background-color: #c2b4aa;
     overflow: auto;
     white-space: nowrap;
-    height: 175px;
-    line-height: 2.5;
 }
 
-.scroll-menu li ol {
-    display: block;
+.block ul > li {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px;
@@ -174,13 +173,23 @@ a{
     font-size: 13px;
 }
 
-.scroll-menu img {
+.block ol > li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.block li > img {
     width: 200px ;
 }
 
-.scroll-menu img:hover {
+.block li img:hover {
     background-color: white;
 }
+
 
 .addy{
     display: flex;
