@@ -239,11 +239,11 @@ a{
       }
     
     #main-photo{
-        display: flex;
+        float:none;
+        display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-        justify-content: center;
     }
 
     .skip #skip-mobile {

@@ -238,6 +238,7 @@ a{
       }
     
     #main-photo{
+        float:none;
         display: flex;
         width: 50%;
         justify-content: center;
