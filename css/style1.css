@@ -175,6 +175,7 @@ a{
 
 .main-photo {
     width: 400px;
+    height: auto;
     float: left;
     /* padding-top: 15%; */
 }
@@ -258,7 +259,7 @@ a{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 80%;
     }
 
     .skip #skip-mobile {
