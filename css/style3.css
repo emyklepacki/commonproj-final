@@ -14,7 +14,7 @@ nav:hover, nav:focus {
 }
 
 body {
-    width: 80%;
+    width: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,7 @@ body {
 	font-size: 12px;
 	color: black;
 	background: #f6f5f4;
+    overflow-x: hidden;
 }
 
 .skip {
@@ -97,8 +98,10 @@ p
 img 
 {
     border: 3px white;
+    width:auto;
     padding: 10px;
     margin: 20px;
+    /* max-width: 70%; */
 }
 
 /* ul
@@ -119,12 +122,12 @@ a{
     color: black;
 }
 
-.thumbnail
+/* .thumbnail
 {
     border: solid white 5px;
     margin: auto;
     padding: 20px;
-}
+} */
 
 /* .text-block ul {
     display: flexj;
@@ -143,14 +146,14 @@ a{
     float: left;
 }
 
-.text-block ul:after {
+/* .addyafter {
     content: "";
     display: block;
     height: 2px;
     width: 100%;
     margin: 10px;
     background: #6F4E37;
-}
+} */
 
 /* .skip #skip-mobile {
     display: none;
@@ -162,15 +165,19 @@ a{
     background-color: #c2b4aa;
     overflow: auto;
     white-space: nowrap;
+    max-height: 300px;
+    margin-right: 15px;
+    border: 2px solid black;
 }
 
 .block ul > li {
-    display: inline-block;
+    /* display: inline-block; */
     color: black;
     text-align: center;
     padding: 14px;
     text-decoration: none;
     font-size: 13px;
+    
 }
 
 .block ol > li{
@@ -180,6 +187,13 @@ a{
     padding: 14px;
     text-decoration: none;
     font-size: 13px;
+}
+
+ol {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 2;
 }
 
 .block li > img {
@@ -194,7 +208,10 @@ a{
 .addy{
     display: flex;
     margin-left: 20px; 
-    width: 500px;
+    max-width: 70%;
+    height: 70%;
+    /* object-fit: cover; */
+    /* width: 500px; */
 }
 
 .skip li {
