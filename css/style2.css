@@ -25,6 +25,7 @@ body {
 	font-size: 18px;
 	color: black;
 	background: #f6f5f4;
+    overflow-x: hidden;
 }
 
 .skip {
@@ -235,9 +236,11 @@ a{
 
     .overview{
         background: url('../imgs/PETSSS.jpeg') no-repeat center;
+        background-position: initial;
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 0;
+        background-size: cover;
     }
 
     nav li{

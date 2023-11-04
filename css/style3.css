@@ -210,8 +210,9 @@ ol {
 
 .addy{
     display: flex;
-    margin-left: 20px; 
-    max-width: 70%;
+    margin-left: 20px;
+    margin-right: 20px; 
+    /* max-width: 70%; */
     height: 70%;
     background-color: #c2b4aa;
     border: solid black 2px;
@@ -239,7 +240,6 @@ ol {
     } */
 
     h2{
-        font-size: 16px;
         text-align: center;
     }
 
@@ -249,9 +249,11 @@ ol {
 
     .overview{
         background: url('../imgs/RECIPESSS.jpeg') no-repeat center;
+        background-position: initial;
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 0;
+        background-size: cover;
     }
 
     nav li{
