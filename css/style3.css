@@ -170,6 +170,10 @@ a{
     border: 2px solid black;
 }
 
+.block h2 {
+    text-decoration: underline;
+}
+
 .block ul > li {
     /* display: inline-block; */
     color: black;
@@ -177,7 +181,6 @@ a{
     padding: 14px;
     text-decoration: none;
     font-size: 13px;
-    
 }
 
 .block ol > li{
@@ -210,6 +213,8 @@ ol {
     margin-left: 20px; 
     max-width: 70%;
     height: 70%;
+    background-color: #c2b4aa;
+    border: solid black 2px;
     /* object-fit: cover; */
     /* width: 500px; */
 }
