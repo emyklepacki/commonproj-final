@@ -210,7 +210,7 @@ a{
 /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (max-width: 767px) {
     body {
-        width: 90%;
+        width: 80%;
         margin: 0px;
         padding: 0;
         font-size: 60%;
@@ -285,6 +285,23 @@ a{
         100% {text-decoration: none;}
       }
 } 
+
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+    
+    .overview{
+        background: url('../imgs/prague-high.jpeg') no-repeat center;
+        background-position: initial;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        background-size: cover;
+    }
+} 
+
+
+
 
 @media screen and (prefers-reduced-motion: reduce){
     html{
