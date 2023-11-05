@@ -315,11 +315,17 @@ a{
     }
 
     body{
-        width: 70%;
+        /* width: 70%; */
         text-align: center;
         align-items: center;
         margin: 0;
     }
+
+    .skip #skip-mobile {
+        display: none;
+        visibility: hidden;
+    }
+
 } 
 
 @media screen and (prefers-reduced-motion: reduce){
