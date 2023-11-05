@@ -26,6 +26,7 @@ body {
 	color: black;
 	background: #f6f5f4;
     overflow-x: hidden;
+    /* margin: 10px; */
 }
 
 .skip {
@@ -59,7 +60,8 @@ body {
     background-repeat: no-repeat; /* Parallax effect */
     background-size: cover;       /* Parallax effect */
     color: 	#86837f;
-    height: 500px;                /* Parallax effect */
+    height: 500px;   
+    /* margin: 0px;              */
   }
 
 
@@ -136,6 +138,10 @@ a{
     max-height: 500px;
     overflow: auto; 
   } */
+
+.text-block {
+    margin: 10px;
+}
 
 .text-block img {
     width: 20%;
