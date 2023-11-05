@@ -182,7 +182,7 @@ a{
 }
 
 .block ul > li {
-    /* display: inline-block; */
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px;
