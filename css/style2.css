@@ -22,7 +22,7 @@ body {
     min-height: 400px;
     padding-top: 100px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 12px;
 	color: black;
 	background: #f6f5f4;
     overflow-x: hidden;
@@ -139,12 +139,12 @@ a{
     color: black;
 }
 
-.thumbnail
+/* .thumbnail
 {
     border: solid white 5px;
     margin: auto;
     padding: 20px;
-}
+} */
 
 /* .text-block ul {
     display: flexj;
@@ -224,10 +224,10 @@ a{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 767px) {
     body {
-        width: 90%;
+        width: 100%;
         margin: 5px;
         padding: 0;
-        font-size: 70%;
+        font-size: 60%;
     }
 
     /* p{
