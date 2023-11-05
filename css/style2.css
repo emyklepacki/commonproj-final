@@ -329,6 +329,16 @@ a{
         visibility: hidden;
     }
 
+    .block ul > li {
+        display: inline-block;
+    }
+
+    .block ul {
+        max-height: 300px; 
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
 } 
 
 @media screen and (prefers-reduced-motion: reduce){

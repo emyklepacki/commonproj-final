@@ -310,6 +310,11 @@ a{
         margin-bottom: 0;
         background-size: cover;
     }
+    
+    .skip #skip-mobile {
+        display: none;
+        visibility: hidden;
+    }
 } 
 
 
