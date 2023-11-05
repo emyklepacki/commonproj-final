@@ -330,9 +330,13 @@ a{
     }
 
     .block ul {
-        max-height: 300px; 
+        max-height: 350px; 
         margin-right: 15px;
         margin-left: 15px;
+    }
+
+    .text-block img {
+    width: 110%;
     }
 
 } 

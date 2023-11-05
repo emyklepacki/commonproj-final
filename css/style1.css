@@ -315,6 +315,11 @@ a{
         display: none;
         visibility: hidden;
     }
+
+    .block > .main-photo{
+        display: none;
+        visibility: hidden;
+    }
 } 
 
 

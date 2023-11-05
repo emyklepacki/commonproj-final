@@ -326,6 +326,11 @@ ol {
         visibility: hidden;
     }
 
+    .block > .main-photo{
+        display: none;
+        visibility: hidden;
+    }
+
 } 
 
 @media screen and (prefers-reduced-motion: reduce){
