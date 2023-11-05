@@ -310,7 +310,7 @@ ol {
 
 } 
 /* TABLET */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     
     .overview{
         background: url('../imgs/RECIPESSS.jpeg') no-repeat center;
@@ -325,7 +325,7 @@ ol {
         display: none;
         visibility: hidden;
     }
-    
+
 } 
 
 @media screen and (prefers-reduced-motion: reduce){

@@ -300,7 +300,7 @@ a{
 
 
 /* TABLET */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     
     .overview{
         background: url('../imgs/prague-high.jpeg') no-repeat center;
@@ -310,7 +310,7 @@ a{
         margin-bottom: 0;
         background-size: cover;
     }
-    
+
     .skip #skip-mobile {
         display: none;
         visibility: hidden;
