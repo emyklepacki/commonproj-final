@@ -103,6 +103,7 @@ h2
 
 h3
 {
+    font-size:20px;
     color: #000000;
     font-family: Courier, monospace;
     text-decoration: underline dotted;
@@ -176,10 +177,12 @@ a{
     background-color: #c2b4aa;
     overflow: auto;
     white-space: nowrap;
+    margin-left: 15px;
+    margin-right:15px;
 }
 
 .block ul > li {
-    display: inline-block;
+    /* display: inline-block; */
     color: white;
     text-align: center;
     padding: 14px;
@@ -211,9 +214,9 @@ a{
     
 }
 
-.text-block > *{
+/* .text-block > *{
     padding: 1rem;
-}
+} */
 
 .main-photo {
     width: 300px;
