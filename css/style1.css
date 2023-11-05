@@ -320,6 +320,13 @@ a{
         display: none;
         visibility: hidden;
     }
+
+    body{
+        /* width: 70%; */
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
 } 
 
 

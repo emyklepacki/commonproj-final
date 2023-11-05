@@ -331,6 +331,13 @@ ol {
         visibility: hidden;
     }
 
+    body{
+        /* width: 70%; */
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
+
 } 
 
 @media screen and (prefers-reduced-motion: reduce){
