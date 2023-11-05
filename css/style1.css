@@ -332,6 +332,7 @@ a{
         margin-left: 0;
         margin-bottom: 0;
         background-size: cover;
+        padding-bottom: 30px;
     }
 
     .skip #skip-mobile {
