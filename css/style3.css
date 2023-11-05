@@ -46,6 +46,24 @@ body {
     color: black;
   }
 
+  .skip-tablet {
+    position: absolute;
+    margin-top: 20px;
+    left: 10px;
+    font-size: 20px; 
+    background-color: #f6f5f4;
+}
+
+.skip-tablet a{
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    color: black;
+  }
+
+
 .skip #skip-mobile:focus{
     visibility: visible;
 }
@@ -339,6 +357,14 @@ ol {
     }
 
 } 
+
+/* computer */
+@media only screen and (min-width: 1025px){
+    .skip-tablet{
+        display: none;
+    }
+}
+
 
 @media screen and (prefers-reduced-motion: reduce){
     html{

@@ -55,7 +55,7 @@ body {
 
   .skip-tablet {
     position: absolute;
-    top: 30px; 
+    margin-top: 20px;
     left: 10px;
     font-size: 20px; 
     background-color: #f6f5f4;
