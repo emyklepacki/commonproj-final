@@ -36,6 +36,10 @@ body {
     background-color: #f6f5f4;
 }
 
+.skip #skip-mobile:focus{
+    visibility: visible;
+}
+
 .skip a{
     left: 0;
     padding: 6px;
@@ -294,7 +298,7 @@ a{
 } 
 
 /* TABLET */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     
     .overview{
         background: url('../imgs/PETSSS.jpeg') no-repeat center;
@@ -306,7 +310,15 @@ a{
     }
 
     .main-photo{
-        display: "none";
+        display: none;
+        visibility: hidden;
+    }
+
+    body{
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        margin: 0;
     }
 } 
 

@@ -7,6 +7,7 @@ nav:hover, nav:focus {
     text-decoration: underline;
 }
 
+
 #current{
     color: #6F4E37;
     font-weight:bold;
@@ -33,6 +34,8 @@ body {
     overflow-x: hidden;
 }
 
+
+
 .skip {
     position: absolute;
     top: 30px; 
@@ -49,6 +52,13 @@ body {
     z-index: 1;
     color: black;
   }
+
+
+
+.skip #skip-mobile:focus{
+    visibility: visible;
+}
+
 
   nav li{
     display:inline;
