@@ -52,7 +52,7 @@ body {
 
   }
 
-  #animate{
+  /* #animate{
     animation-name: animate;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -64,7 +64,7 @@ body {
     25%  {text-decoration: none;}
     50%  {text-decoration: underline dotted;}
     100% {text-decoration: none;}
-  }
+  } */
 
 .overview{
     background-attachment: fixed;
@@ -282,13 +282,13 @@ a{
     #current{
         text-decoration: underline;
     }
-
+/* 
     h2{
     animation-name: animate;
     animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    }
+    } */
 
 
 } 
@@ -303,6 +303,10 @@ a{
         margin-left: 0;
         margin-bottom: 0;
         background-size: cover;
+    }
+
+    .main-photo{
+        display: "none";
     }
 } 
 
