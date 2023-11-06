@@ -291,6 +291,10 @@ ol {
         text-align: center;
     }
 
+    h1{
+    padding-top: 70px;
+    }
+
     .scroll-menu {
         width: 100%;
     }
