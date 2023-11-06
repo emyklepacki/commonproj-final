@@ -46,7 +46,7 @@ body {
     color: black;
   }
 
-  .skip-tablet {
+  /* .skip-tablet {
     position: absolute;
     margin-top: 20px;
     left: 10px;
@@ -61,7 +61,17 @@ body {
     transition: top 1s ease-out;
     z-index: 1;
     color: black;
-  }
+  } */
+
+.w3-dropdown-click {
+    position: absolute;
+    margin-top: 10px;
+    /* left: 10px; */
+    font-size: 20px; 
+    background-color: #6F4E37;
+    color: white;
+    text-align: left;
+}
 
 
 .skip #skip-mobile:focus{
@@ -360,7 +370,7 @@ ol {
 
 /* computer */
 @media only screen and (min-width: 1025px){
-    .skip-tablet{
+    .w3-dropdown-click{
         display: none;
     }
 }

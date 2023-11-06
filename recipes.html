@@ -17,10 +17,19 @@
                 <li><a href = "pets.html">Pets</a></li>
                 <li><a href = "recipes.html" id = "current">Recipes</a></li>
             </ul>
+            <div class = "w3-dropdown-click">
+                <button class="w3-button" onclick="myFunction()">
+                    content <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+                    <a href="recipes.html#r1" class="w3-bar-item w3-button">Spicy Chicken</a>
+                    <a href="recipes.html#r2" class="w3-bar-item w3-button">Tomato & Eggs</a>
+                    <a href="recipes.html#r3" class="w3-bar-item w3-button">Shrimp Scampi</a>
+                  </div>
         </nav>
     </div>
 
-    <div class = "skip-tablet">
+    <!-- <div class = "skip-tablet">
         <nav>
             <ul>
                 <li><b><a href = "recipes.html#r1" >Spicy Chicken</a></b></li>
@@ -29,7 +38,18 @@
 
             </ul>
         </nav>
-    </div>
+    </div> -->
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("demo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
 
     <main>
         <div class = "overview">
