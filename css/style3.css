@@ -404,6 +404,12 @@ ol {
     #current{
         text-decoration: underline;
     }
+    #top{
+        display:none;
+    }
+    .open-button {
+        display:none;
+      }
 
 } 
 
@@ -449,6 +455,10 @@ ol {
     .open-button {
         display:none;
       }
+
+      #top{
+        display:none;
+    }
 }
 
 

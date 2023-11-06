@@ -378,6 +378,14 @@ a{
     #current{
         text-decoration: underline;
     }
+
+    #top{
+        display:none;
+    }
+
+    .open-button {
+        display:none;
+      }
 /* 
     h2{
     animation-name: animate;
@@ -451,6 +459,10 @@ a{
     .open-button {
         display:none;
       }
+
+      #top{
+        display:none;
+    }
 }
 
 @media screen and (prefers-reduced-motion: reduce){

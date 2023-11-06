@@ -383,6 +383,10 @@ a{
     #top{
         display:none;
     }
+
+    .open-button {
+        display:none;
+      }
       
 } 
 
