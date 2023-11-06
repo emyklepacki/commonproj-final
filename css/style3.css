@@ -333,7 +333,7 @@ ol {
     
      .block > .main-photo img {
         /* float:none; */
-        /* display: block; */
+        display: block;
         height: auto;
         min-width: 100%;
     }
@@ -357,7 +357,7 @@ ol {
         display:none;
     }
 
-    .skip-m img{
+    .block > .skip-m img{
         display:none;
         visibility: hidden;
     }
