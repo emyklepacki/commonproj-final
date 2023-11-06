@@ -65,7 +65,7 @@ body {
 
 .w3-dropdown-click {
     position: absolute;
-    margin-top: 10px;
+    /* margin-top: 0px; */
     /* left: 10px; */
     font-size: 20px; 
     background-color: #6F4E37;
