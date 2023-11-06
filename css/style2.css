@@ -363,6 +363,9 @@ a{
         color:black;
         text-decoration: underline dotted;
     }
+    .text-block{
+        margin: 10px;
+    }
 
 } 
 

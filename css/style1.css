@@ -53,25 +53,16 @@ body {
     color: black;
   }
 
-  .skip-tablet {
+
+  .w3-dropdown-click {
     position: absolute;
-    margin-top: 20px;
-    left: 10px;
+    margin-top: 10px;
+    /* left: 10px; */
     font-size: 20px; 
     background-color: #6F4E37;
     color: white;
-    text-align: center;
+    text-align: left;
 }
-
-.skip-tablet a{
-    left: 0;
-    padding: 6px;
-    -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out;
-    z-index: 1;
-    color: black;
-  }
-
 
 
 .skip #skip-mobile:focus{
@@ -317,7 +308,7 @@ a{
         100% {text-decoration: none;}
       }
 
-      .skip-tablet{
+      .w3-dropdown-click{
         display: none;
     }
       
@@ -361,9 +352,9 @@ a{
 
 /* computer */
 @media only screen and (min-width: 1025px){
-.skip-tablet{
-    display: none;
-}
+    .w3-dropdown-click{
+        display: none;
+    }
 }
 
 
