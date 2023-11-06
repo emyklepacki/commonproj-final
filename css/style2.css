@@ -370,6 +370,14 @@ a{
     .open-button {
         display:none;
       }
+
+    .text-block{
+        margin: 10px;
+    }
+
+    .w3-dropdown-click{
+        display:none;
+    }
 /* 
     h2{
     animation-name: animate;

@@ -331,13 +331,11 @@ ol {
         width: auto;
       }
     
-    .main-photo{
+     .block > .main-photo img {
         float:none;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-        
+        height: auto;
+        min-width: 100%;
     }
 
     .skip #skip-mobile {
@@ -354,6 +352,10 @@ ol {
     .open-button {
         display:none;
       }
+
+      .w3-dropdown-click{
+        display:none;
+    }
 
 } 
 
