@@ -332,8 +332,8 @@ ol {
       }
     
      .block > .main-photo img {
-        float:none;
-        display: block;
+        /* float:none; */
+        /* display: block; */
         height: auto;
         min-width: 100%;
     }
@@ -355,6 +355,11 @@ ol {
 
       .w3-dropdown-click{
         display:none;
+    }
+
+    .skip-m img{
+        display:none;
+        visibility: hidden;
     }
 
 } 
