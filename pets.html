@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="css/style2.css">
     <title>Pets</title>
 </head>
@@ -16,11 +17,22 @@
                 <li><a href = "pets.html" id = "current">Pets</a></li>
                 <li><a href = "recipes.html">Recipes</a></li>
             </ul>
+            <div class = "w3-dropdown-click">
+        <button class="w3-button" onclick="myFunction()">
+            content <i class="fa fa-caret-down"></i>
+          </button>
+          <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+            <a href="pets.html#p1" class="w3-bar-item w3-button">Bacon</a>
+            <a href="pets.html#p2" class="w3-bar-item w3-button">Milktea</a>
+            <a href="pets.html#p3" class="w3-bar-item w3-button">Chunky</a>
+            <a href="pets.html#p4" class="w3-bar-item w3-button">Bo</a>
+            <a href="pets.html#p5" class="w3-bar-item w3-button">Honey</a>
+          </div>
         </nav>
     </div>
 
-    <div class = "skip-tablet">
-        <nav>
+    
+        <!-- <nav>
             <ul>
                 <li><b><a href = "pets.html#p1" >Bacon</a></b></li>
                 <li><b><a href = "pets.html#p2" >Milktea</a></b></li>
@@ -28,8 +40,18 @@
                 <li><b><a href = "pets.html#p4" >Bo</a></b></li>
                 <li><b><a href = "pets.html#p5" >Honey</a></b></li>
             </ul>
-        </nav>
+        </nav> -->
     </div>
+        <script>
+        function myFunction() {
+          var x = document.getElementById("demo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
 
     <main>
         <div class = "overview">
