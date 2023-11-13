@@ -13,7 +13,7 @@ nav:hover, nav:focus {
 
 
 #current{
-    color: #6F4E37;
+    color: darkred;
     font-weight:bold;
     text-transform:uppercase
 }
@@ -32,10 +32,10 @@ body {
     align-items: center;
     min-height: 400px;
     padding-top: 100px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Seymour One', sans-serif;
 	font-size: 12px;
 	color: black;
-	background: #f6f5f4;
+	background: #DDD0C8;
     overflow-x: hidden;
 }
 
@@ -46,7 +46,7 @@ body {
     top: 30px; 
     left: 10px;
     font-size: 20px; 
-    background-color: #f6f5f4;
+    background-color: #DDD0C8;
 }
 
 .skip a{
@@ -78,34 +78,42 @@ body {
   nav li{
     display:inline;
     padding-right:20px;
-    font-family: Courier, monospace;
+    font-family: 'Seymour One', sans-serif;
+    font-size: smaller;
 
   }
 
 .overview{
     background-attachment: fixed;
-    background-image: url('../imgs/prague-high.jpeg'); /* Parallax effect */     
+    background-image: url('../images/travel-img.webp'); /* Parallax effect */     
     background-position: center;  /* Parallax effect */
     background-repeat: no-repeat; /* Parallax effect */
     background-size: cover;       /* Parallax effect */
-    color: 	#86837f;
+    color: 	#323232;
     height: 500px;                /* Parallax effect */
   }
+
+.overview h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: darkred 3px solid;
+}
 
 
 h1
 {
     font-size:50px;
     text-align: center;
-    font-family: billabong;
-    background-color: #f6f5f4;
+    font-family: 'Seymour One', sans-serif;
+    background-color: #DDD0C8;
 }
 
 h2
 {
     font-size:30px;
-    color: #86837f;
-    font-family: Verdana;
+    color: #323232;
+    /* font-family: Verdana; */
+    font-family: 'Seymour One', sans-serif;
     animation-name: animate;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -116,8 +124,8 @@ h3
 {
     font-size:20px;
     color: #000000;
-    font-family: Courier, monospace;
-    text-decoration: underline dotted;
+    font-family: 'Seymour One', sans-serif;
+    /* text-decoration: underline dotted; */
     text-align: center ;
     font-weight: bold;
 }
@@ -125,7 +133,7 @@ h3
 p
 {
     line-height: 2.5;
-    font-family: Courier, monospace;
+    font-family: 'Seymour One', sans-serif;
     text-align: center;
     font-size: 13px;
 }
@@ -177,16 +185,18 @@ a{
 
 
 .block ul {
-    background-color: #c2b4aa;
+    background-color: #DDD0C8;
     overflow: auto;
     white-space: nowrap;
+    border: darkred solid 3px;
+    /* opacity: .5; */
 }
 
 .block ul > li {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px;
+    padding: 10px;
     text-decoration: none;
     font-size: 13px;
 }
@@ -195,8 +205,16 @@ a{
     width: 200px ;
 }
 
+.block li img{
+    -webkit-filter: blur(3px);
+    transition: .5s ease;
+}
+
 .block li img:hover {
-    background-color: white;
+    box-shadow: 0 0 0 5px white;
+    -webkit-filter: blur(0px);
+    transition: .5s ease;
+    
 }
 
 
@@ -204,6 +222,7 @@ a{
     width: 400px;
     height: auto;
     float: left;
+    max-height: 450px;
     /* padding-top: 15%; */
 }
 
@@ -282,6 +301,14 @@ a{
     opacity: 1;
   }
 
+  .text-block .main-photo{
+    transition: .5s ease;
+  }
+
+  .text-block .main-photo:hover {
+    box-shadow: 0 0 0 5px white;
+    transition: .5s ease;
+  }
 
 @-webkit-keyframes animate {
     0%   {text-decoration: underline dotted; }
@@ -338,9 +365,10 @@ a{
         width: 100%;
     }
 
-    h1{
+    /* h1{
         padding-top: 70px;
-    }
+        font-family: 'Seymour One', sans-serif;
+    } */
 
     h2{
         text-align: center;
@@ -352,14 +380,16 @@ a{
         padding: 1em;
         grid-row-gap: 20px;
       }
+
     
-    .main-photo{
+    .main-photo {
         float:none;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
     }
+
 
     .skip #skip-mobile {
         display: none;
@@ -446,6 +476,8 @@ a{
         display:none;
       }
 }
+
+
 
 
 
