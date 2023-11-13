@@ -10,13 +10,69 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Seymour+One&display=swap" rel="stylesheet">  
     <script src="https://kit.fontawesome.com/a822dfe65a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a822dfe65a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style1.css">
     <title>Travel</title>
     
 </head>
+<style>
+    body {
+        background: #DDD0C8;
+        color: #323232;;
+    }
+
+    .dark-mode {
+        background-color: #323232;
+        color: #DDD0C8;
+    }
+
+    .dark-mode .skip{
+        background-color: #323232;
+        color: #DDD0C8;
+    }
+    .dark-mode h3{
+        color: #DDD0C8;
+    }
+    .dark-mode h2{
+        color: #DDD0C8;
+    }
+    .dark-mode .overview > h1{
+        border: white 3px solid;
+        background-color: #323232;
+        color: #DDD0C8;
+    }
+    .dark-mode .block > ul {
+        border: white solid 3px;
+        background-color: #323232;
+    }
+    .dark-mode #darkMode {
+        display:none;
+    }
+    .dark-mode .skip a{
+        color:#DDD0C8;
+    }
+    .dark-mode #current {
+        color: white;
+    }
+    .dark-mode #top-scroll {
+        color:#DDD0C8
+    }
+</style>
 <body>
     <main>
         
+<div id = "top"></div>
+
+    <script>
+        function darkMode() {
+            let element = document.body;
+            let content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+    </script>
+
+<button id = "darkMode"  onclick="darkMode()"><i class="fa-regular fa-lightbulb"></i></button>
 <button id = "openForm" class="open-button" onclick="openForm()">Login Here </button>
 
 <div class="form-popup" id="myForm">
@@ -60,7 +116,6 @@
                     <li><b><a href = "index.html" id = "current">Home/Travel</a></b></li>
                     <li><a href = "pets.html">Pets</a></li>
                     <li><a href = "recipes.html">Recipes</a></li>
-                    <li>
                     <div class = "w3-dropdown-click">
                         <button class="w3-button" onclick="myFunction()">
                             content <i class="fa fa-caret-down"></i>
@@ -122,10 +177,9 @@
             
             <div class="space"></div>
             <p>Prague is the location of several University of Michigan Study Abroad programs. Many schools such as LSA, Ross, Engineering, and School of Information send students annually to Eastern Europe to explore an international education for their desired topic.
+            <br>Prague is a country in central Europe. It is the capital of Czech Republic. It has a lot of historical features and buildings. It is a beautifg city with a ton of architecture. Prague is a very popular destination spot for tourists.
             </p>
 
-            <p>Prague is a country in central Europe. It is the capital of Czech Republic. It has a lot of historical features and buildings. It is a beautifg city with a ton of architecture. Prague is a very popular destination spot for tourists.
-            </p>
             <br>
             <h3>PHOTO GALLERY:</h3>
             <!-- <div class = "scroll-menu"> -->
@@ -156,8 +210,6 @@
             </li>
             </ul>
             </div> 
-            <!-- <hr> -->
-          <!-- </div> -->
           <div class = "block" tabindex="0" id = "l2"><br>
                 <h2><i class="fa-solid fa-location-dot"></i> Zermatt, Switzerland</h2>
                 <img class = "gif main-photo" src="images/Zermatt_skier.gif" alt="Europe" width="400">
@@ -168,8 +220,8 @@
                 <h3>Geographical Location: Europe</h3>
                 <div class="space"></div>
 
-                <p>Zermatt is a beautiful place, with 365 degree views of the mountains. It’s known for its famous mountain “the Matterhorn,” which is visible from nearly everywhere in the town. The town is vibrant, filled with patrons walking around, shopping for the most high quality snow boots, eating hot Rosti and drinking wine.</p>
-                <p>The skiing in Zermatt is unparalleled. Every day in the winter you can find people skiing all day. When it snows, the mountain becomes even more crowded, with skiers flocking to the mountain from around the country and the world.</p>
+                <p>Zermatt is a beautiful place, with 365 degree views of the mountains. It’s known for its famous mountain “the Matterhorn,” which is visible from nearly everywhere in the town. The town is vibrant, filled with patrons walking around, shopping for the most high quality snow boots, eating hot Rosti and drinking wine.<br>
+                The skiing in Zermatt is unparalleled. Every day in the winter you can find people skiing all day. When it snows, the mountain becomes even more crowded, with skiers flocking to the mountain from around the country and the world.</p>
                 <br>
             <h3>PHOTO GALLERY:</h3>
             <!-- <div class = "scroll-menu"> -->
@@ -213,11 +265,13 @@
                 <div class="space"></div>
                 <h3>Geographical Location: Europe</h3>
                 <div class="space"></div>
+
             <p>Paris is one of the oldest cities in Europe and the city of romance. With a vast amount of cultural
                 history,
-                lined with iconic landmarks, intimate scenes, and world-renowed art museums.</p>
-            <p> Paris welcomes millions of visitors annually, each drawn to its exquisite charm and beautiful ambiance.
+                lined with iconic landmarks, intimate scenes, and world-renowed art museums.
+            <br> Paris welcomes millions of visitors annually, each drawn to its exquisite charm and beautiful ambiance.
                 Enjoy tasty treats and exquisite cuisine await, while city landmarks illuminate the night sky.</p>
+
                 <br>
             <h3>PHOTO GALLERY:</h3>
             <!-- <div class = "scroll-menu"> -->
@@ -269,10 +323,10 @@
             <p>
             Mexico City is the capital of Mexico. The city is full of Museums that vary from history, art,
             and even the history of the Mexican coin. 
-            </p>
-            <p>
+            <br>
              For tourists, there are places like an amusement park called Feria de Chapultepec and giant zoo Zoológico de Chapultepec that are a must visit. In the photo gallery there are also major attractions to visit.
             </p>
+
             <br>
             <h3>PHOTO GALLERY:</h3>
             <!-- <div class = "scroll-menu"> -->
@@ -318,8 +372,10 @@
                 <h3>Geographical Location: East Asia</h3> 
                 <br>
 
-                <p>Seoul is the capital of South Korea and it is a city enshrined in history. The Han river runs through Seoul, dividing it into two parts. Additionally, there are many mountains in and around Seoul, making it so the city has a lot of hills. </p>
-                <p>Seoul is the perfect blend of modern and historical with five royal palaces and several shrines. Additionally, there are plenty of fun shopping areas in Seoul such as Hongdae, Insadong, and Gangam. Lastly, Seoul is a city of cafes with one on almost every block and several fun cafe experiences to try out, especially in Yeonnam.</p>
+                <p>Seoul is the capital of South Korea and it is a city enshrined in history. The Han river runs through Seoul, dividing it into two parts. Additionally, there are many mountains in and around Seoul, making it so the city has a lot of hills.
+                <br>Seoul is the perfect blend of modern and historical with five royal palaces and several shrines. Additionally, there are plenty of fun shopping areas in Seoul such as Hongdae, Insadong, and Gangam. Lastly, Seoul is a city of cafes with one on almost every block and several fun cafe experiences to try out, especially in Yeonnam.
+                </p>
+                
                 <br>
                 <h3>PHOTO GALLERY:</h3>
                 <!-- <div class = "scroll-menu"> -->
@@ -362,8 +418,10 @@
             <h3>Geographical Location: Europe</h3> 
             <div class="space"></div>
 
-                    <p>Berlin, a city of fascinating contrasts, seamlessly blends a storied past with a cutting-edge present. The Brandenburg Gate, an iconic symbol, stands as a reminder of history, while sleek modern architecture shapes the skyline. The city's artistic spirit thrives, evident in vibrant street art, avant-garde galleries, and the East Side Gallery's striking murals on the Berlin Wall's remnants. </p>
-                    <p>Berlin's neighborhoods each offer a distinct flavor. Kreuzberg brims with bohemian energy, Prenzlauer Berg exudes hipster charm, and Charlottenburg boasts elegance. As the sun sets, Berlin's renowned nightlife awakens. Legendary techno beats pulse through clubs like Berghain, offering an unforgettable nocturnal adventure. </p>
+                    <p>Berlin, a city of fascinating contrasts, seamlessly blends a storied past with a cutting-edge present. The Brandenburg Gate, an iconic symbol, stands as a reminder of history, while sleek modern architecture shapes the skyline. The city's artistic spirit thrives, evident in vibrant street art, avant-garde galleries, and the East Side Gallery's striking murals on the Berlin Wall's remnants. <br>
+                    Berlin's neighborhoods each offer a distinct flavor. Kreuzberg brims with bohemian energy, Prenzlauer Berg exudes hipster charm, and Charlottenburg boasts elegance. As the sun sets, Berlin's renowned nightlife awakens. Legendary techno beats pulse through clubs like Berghain, offering an unforgettable nocturnal adventure.
+                    </p>
+
                     <br>
                     <h3>PHOTO GALLERY:</h3>
                     <!-- <div class = "scroll-menu"> -->
@@ -405,8 +463,10 @@
             <div class="space"></div>
             <h3>Geographical Location: North America</h3> 
             <div class="space"></div>
-                    <p>New York City, otherwise known as “The Big Apple,” is a bustling city in the United States of America. Home to about eight million people, New York City houses popular attractions such as the Statue of Liberty, Central Park, the Empire State Building, and many more.</p>
-                    <p>There are five burroughs within New York City, including Brooklyn, Manhattan, Staten Island, Queens, Bronx. Each borough is filled with different sights to see. New York City has many opportunities not only for those who live there, but also those visiting. From navigating the subway system to seeing a Broadway show, it is impossible to get bored. </p>
+                    <p>New York City, otherwise known as “The Big Apple,” is a bustling city in the United States of America. Home to about eight million people, New York City houses popular attractions such as the Statue of Liberty, Central Park, the Empire State Building, and many more.<br>
+                    There are five burroughs within New York City, including Brooklyn, Manhattan, Staten Island, Queens, Bronx. Each borough is filled with different sights to see. New York City has many opportunities not only for those who live there, but also those visiting. From navigating the subway system to seeing a Broadway show, it is impossible to get bored. 
+                    </p>
+
                     <br>
                     <h3>PHOTO GALLERY:</h3>
                     <!-- <div class = "scroll-menu"><ul> -->
@@ -447,7 +507,13 @@
 
     </main>
 
-    <a id = "top" href="#">Back to Top</a>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    </script>
+
+    <a id = "top-scroll" href="#top" onclick="scrollToTop();return false">Back to Top &uarr;</a>
     <br>
 
     
