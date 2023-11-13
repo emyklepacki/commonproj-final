@@ -7,6 +7,10 @@ nav:hover, nav:focus {
     text-decoration: underline;
 }
 
+.space{
+    padding-top: 30px;
+}
+
 
 #current{
     color: #6F4E37;
