@@ -58,6 +58,21 @@ body {
     color: black;
   }
 
+  nav .skip-main {
+    position: absolute;
+    top: -60px; 
+    left: 10px;
+    opacity: 0;
+  }
+
+  nav .skip-main:focus {
+    top: 20px; 
+    opacity: 1;
+    } 
+
+    nav a:focus {
+        outline: 2px solid; 
+      }
 
   .w3-dropdown-click {
     position: absolute;
@@ -108,16 +123,23 @@ h1
     background-color: #DDD0C8;
 }
 
+/* ANIMATION */
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
 h2
 {
     font-size:30px;
     color: #323232;
     /* font-family: Verdana; */
     font-family: 'Seymour One', sans-serif;
-    animation-name: animate;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation: slide-in 1000ms;
 }
 
 h3
@@ -310,13 +332,6 @@ a{
     transition: .5s ease;
   }
 
-@-webkit-keyframes animate {
-    0%   {text-decoration: underline dotted; }
-    25%  {text-decoration: none;}
-    50%  {text-decoration: underline dotted;}
-    100% {text-decoration: none;}
-  }
-
 
    .text-block { 
      display: grid; 
@@ -400,19 +415,20 @@ a{
         text-decoration: underline;
     }
 
-    h2{
-    animation-name: animate;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    }
+    
 
-    @keyframes animate {
-        0%   {text-decoration: underline dotted; }
-        25%  {text-decoration: none;}
-        50%  {text-decoration: underline dotted;}
-        100% {text-decoration: none;}
-      }
+    @keyframes slide-in {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0%);
+        }
+    }
+    
+    h2{
+    animation: slide-in 1000ms;
+    }
 
       .w3-dropdown-click{
         display: none;
