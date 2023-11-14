@@ -168,11 +168,6 @@ img
     margin: 20px;
 }
 
-/* ul
-{
-    display: inline-block;
-    margin-left: 50px;
-} */
 
 nav
 {
@@ -184,26 +179,6 @@ a{
     border: black;
     color: #323232;
 }
-
-.thumbnail
-{
-    border: solid white 5px;
-    margin: auto;
-    padding: 20px;
-}
-
-/* .text-block ul {
-    display: flexj;
-    justify-content: center;
-    align-items: center;
-    max-height: 500px;
-    overflow: auto; 
-  } */
-
-/* .text-block img {
-    width: 20%;
-} */
-
 
 
 .block ul {
@@ -495,7 +470,7 @@ a{
 
     #darkMode {
         bottom: 0px;
-        left: 20px;
+        left: 50px;
     }
 } 
 
