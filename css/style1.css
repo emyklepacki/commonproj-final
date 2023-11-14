@@ -492,6 +492,11 @@ a{
     .text-block{
         margin-top: 25px;
     }
+
+    #darkMode {
+        top: 0px;
+        right: 0px;
+    }
 } 
 
 /* computer */
