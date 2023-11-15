@@ -381,7 +381,7 @@ a{
 
     .text-block {
         display: grid;
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr 2fr; 
         padding: 1em;
         grid-row-gap: 20px;
       }
@@ -466,7 +466,11 @@ a{
 
     .text-block{
         margin-top: 25px;
-    }
+        display: grid;
+        grid-template-columns: 1fr; 
+        padding: 1em;
+        grid-row-gap: 20px;
+      }
 
     #darkMode {
         bottom: 0px;
