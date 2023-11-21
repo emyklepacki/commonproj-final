@@ -420,8 +420,8 @@ ol {
         display:none;
       }
 
-      .text-block{
-        margin: 10px;
+      .text-block .block{
+        margin: 20px;
     }
 
       .w3-dropdown-click{
