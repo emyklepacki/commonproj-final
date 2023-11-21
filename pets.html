@@ -13,7 +13,7 @@
     <title>Pets</title>
 </head>
 <body>
-
+    <div id = "top"></div>
 <button id = "openForm" class="open-button" onclick="openForm()">Login Here </button>
 
 <div class="form-popup" id="myForm">
@@ -49,9 +49,9 @@
 
 </script>
     <div class = "skip">
+        <div class = "skip-main"><a href = "" id = "skip-mobile">Skip to Main Content</a></div>
         <nav>
             <ul>
-                <li><a href = "" id = "skip-mobile">Skip to Main Content</a></li>
                 <li><a href = "index.html">Home/Travel</a></li>
                 <li><a href = "pets.html" id = "current">Pets</a></li>
                 <li><a href = "recipes.html">Recipes</a></li>
@@ -252,7 +252,13 @@
           
         </div>
     </main>
-    <a id = "top" href="#">Back to Top</a>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    </script>
+
+    <a id = "top-scroll" href="#top" onclick="scrollToTop();return false">Back to Top &uarr;</a>
     <br>
 </body>
 </html>

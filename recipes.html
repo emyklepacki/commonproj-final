@@ -14,6 +14,7 @@
     <title>Recipes</title>
 </head>
 <body>
+    <div id = "top"></div>
 
     <button id = "openForm" class="open-button" onclick="openForm()">Login Here </button>
 
@@ -50,9 +51,9 @@
     
     </script>
     <div class = "skip">
+        <div class = "skip-main"><a href = "" id = "skip-mobile">Skip to Main Content</a></div>
         <nav>
             <ul>
-                <li><a href = "" id = "skip-mobile">Skip to Main Content</a></li>
                 <li><a href = "index.html">Home/Travel</a></li>
                 <li><a href = "pets.html">Pets</a></li>
                 <li><a href = "recipes.html" id = "current">Recipes</a></li>
@@ -96,7 +97,7 @@
             <br>
             <h1>Recipes</h1>
             </div>
-
+        
  <div class = "text-block" id = "r1">
      <div class = "block" tabindex="0">
             <h2>(1) Spicy Fried Chicken Sandwich Recipe</h2>
@@ -140,8 +141,7 @@
             </ul>
             <br>
             <h3>Recipe Steps:</h3>
-            <ol>
-            <!-- <div class = "scroll-menu"> -->
+            <ol type= "1">
                 <li>Wash your chicken and leave it to rest in a bowl</li>
                 <li>Begin working on your marinade. In a medium/large bowl, combine your hot sauce, eggs, black pepper, butter, and salt one-by-one. Mix until fully dissolved</li>
                 <li>In a separate bowl, combine flour, garlic powder, paprika, cumin, black pepper, salt together. Whisk thoroughly.</li>
@@ -151,7 +151,6 @@
                 <li>Grab a deep pan and add your oil on medium-high heat. Fry in oil for 4-5min on each side.</li>
                 <li>Remove chicken thigh and toss in 1tbsp hot sauce before plating. </li>
                 <li>Combine the buns, toppings, and chicken and serve!</li>
-            <!-- </div> -->
             </ol>
             <br>
             <div class = "addy">
@@ -169,7 +168,6 @@
             <p>Category: Main Dish</p>
     
             <img src="images/tomato-egg-main-image.jpeg" width = "400" alt="Shrimp Scampi" class = "main-photo">
-            <p>Tomato and eggs is a hot dish which originated from China. It is a simple and fast dish to make, but it has good nutritional value.</p>
             <br>
             <h3>Recipe Ingredients:</h3><ul>
             <!-- <div class = "scroll-menu"> -->
@@ -207,7 +205,6 @@
             <p>Category: Main Dish</p>
     
             <img src="images/shrimp-scampi.jpg" width = "400" alt="Shrimp Scampi" class = "main-photo">
-            <p>Shrimp scampi is a classic Italian-American delight, where succulent shrimp meet a medley of garlic, butter, and white wine. Sautéed to pink perfection, the shrimp mingle with a fragrant blend of garlic and red pepper flakes. A drizzle of white wine and a squeeze of lemon create a luxurious sauce, embracing the dish's linguine base. With a sprinkle of parsley, it's a harmonious, flavorful masterpiece that exemplifies both simplicity and taste.</p>
             <br>
             <h3>Recipe Ingredients:</h3><ul>
             <!-- <div class = "scroll-menu"> -->
@@ -249,7 +246,13 @@
         </div>
     </div>
     </main>
-    <a id = "top" href="#">Back to Top</a>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    </script>
+
+    <a id = "top-scroll" href="#top" onclick="scrollToTop();return false">Back to Top &uarr;</a>
     <br>
 </body>
 </html>

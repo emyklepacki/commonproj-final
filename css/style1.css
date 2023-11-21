@@ -40,6 +40,14 @@ body {
     overflow-x: hidden;
 }
 
+#skip-mobile{
+    text-transform: uppercase;
+    position: absolute;
+    left: -500px;
+}
+#skip-mobile.focus{
+    left: 600px
+} 
 
 
 .skip {
@@ -66,6 +74,7 @@ body {
     opacity: 0;
   }
 
+
   nav .skip-main:focus {
     top: 20px; 
     opacity: 1;
@@ -83,11 +92,6 @@ body {
     background-color: #6F4E37;
     color: white;
     text-align: left;
-}
-
-
-.skip #skip-mobile:focus{
-    visibility: visible;
 }
 
 
@@ -172,7 +176,7 @@ img
 nav
 {
     border: 3px black;
-    color: #323232;
+    color: blac;
 }
 
 a{
@@ -348,6 +352,10 @@ a{
         float:right;
     }
 
+    .skip-tablet{
+        display: none;
+    }
+
 
     .overview{
         background: url('../imgs/prague-high.jpeg') no-repeat center;
@@ -476,6 +484,8 @@ a{
         bottom: 0px;
         left: 50px;
     }
+
+    
 } 
 
 /* computer */
@@ -490,6 +500,10 @@ a{
     .open-button {
         display:none;
       }
+
+    .skip-tablet{
+        display:none;
+    }
 }
 
 
