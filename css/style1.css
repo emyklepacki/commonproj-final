@@ -176,7 +176,7 @@ img
 nav
 {
     border: 3px black;
-    color: blac;
+    color: black;
 }
 
 a{
@@ -387,9 +387,10 @@ a{
         text-align: center;
     }
 
-    .text-block {
+    .text-block{
+        margin-top: 25px;
         display: grid;
-        grid-template-columns: 1fr 2fr; 
+        grid-template-columns: 1fr; 
         padding: 1em;
         grid-row-gap: 20px;
       }

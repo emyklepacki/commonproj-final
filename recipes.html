@@ -13,9 +13,69 @@
     <link rel="stylesheet" type="text/css" href="css/style3.css">
     <title>Recipes</title>
 </head>
+<style>
+    body {
+        background: #DDD0C8;
+        color: #323232;
+    }
+
+    .dark-mode {
+        background-color: #323232;
+        color: #DDD0C8;
+    }
+
+    .dark-mode .skip{
+        background-color: #323232;
+        color: #DDD0C8;
+    }
+    .dark-mode h3{
+        color: #DDD0C8;
+    }
+    .dark-mode h2{
+        color: #DDD0C8;
+    }
+    .dark-mode .overview > h1{
+        border: white 3px solid;
+        background-color: #323232;
+        color: #DDD0C8;
+    }
+    .dark-mode .block > ul {
+        border: white solid 3px;
+        background-color: #323232;
+    }
+    .dark-mode #darkMode {
+        display:none;
+    }
+    .dark-mode .skip a{
+        color:#DDD0C8;
+    }
+    .dark-mode #current {
+        color: white;
+    }
+    .dark-mode #top-scroll {
+        color:#DDD0C8;
+    }
+    .dark-mode .block li {
+        color:#DDD0C8;
+    }
+    .dark-mode .addy {
+        color:#DDD0C8;
+        background-color: #323232;
+        border: white solid 3px;
+    }
+</style>
 <body>
     <div id = "top"></div>
+    <script>
+        function darkMode() {
+            let element = document.body;
+            let content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+    </script>
 
+    <button id = "darkMode"  onclick="darkMode()"><i class="fa-regular fa-lightbulb"></i></button>  
     <button id = "openForm" class="open-button" onclick="openForm()">Login Here </button>
 
     <div class="form-popup" id="myForm">

@@ -333,6 +333,20 @@ ol {
     opacity: 1;
   }
 
+  #darkMode {
+    /* background-color: #555; */
+    color: #323232;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    min-width: 75px;
+    font-size: 70px;
+}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 767px) {
@@ -387,22 +401,11 @@ ol {
         width: auto;
       }
     
-     .block > .main-photo img {
-        /* float:none; */
-        display: block;
-        height: auto;
-        min-width: 100%;
+      .block > .main-photo{
+        display: none;
+        visibility: hidden;
     }
 
-
-    .text-block .main-photo{
-        transition: .5s ease;
-      }
-    
-      .text-block .main-photo:hover {
-        box-shadow: 0 0 0 5px black;
-        transition: .5s ease;
-    }
 
     
     .skip #skip-mobile {
@@ -460,6 +463,11 @@ ol {
         text-align: center;
         align-items: center;
         margin: 0;
+    }
+
+    #darkMode {
+        bottom: 0px;
+        left: 50px;
     }
 
 } 
