@@ -391,8 +391,9 @@ a{
         margin-top: 25px;
         display: grid;
         grid-template-columns: 1fr; 
-        padding: 1em;
+        padding: 0;
         grid-row-gap: 20px;
+        width: auto;
       }
 
     

@@ -177,7 +177,7 @@ a{
 
 .block ul {
     background-color: #c2b4aa;
-    overflow: auto;
+    overflow-y: scroll;
     white-space: nowrap;
     max-height: 300px;
     margin-right: 15px;
@@ -387,7 +387,7 @@ ol {
     }
 
     h1{
-        padding-top: 80px;
+        margin-top: 90px;
         text-align: center;
     }
 
@@ -396,7 +396,7 @@ ol {
         /* display: grid; */
         grid-row-gap: 20px;
         /* border: 10px #6F4E37; */
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
         width: auto;
       }
